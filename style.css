@@ -1,0 +1,57 @@
+body {
+    background-color: bisque;
+}
+#movie-backdrop {
+    width: 100%;
+}
+
+.container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#actors {
+    margin: 24px 16px 0 0;
+}
+
+.button {
+    color: black;
+}
+
+.moviess {
+    float: left;
+    margin: 15px;
+}
+
+nav a {
+    color: #ebe5e2;
+    font-size: 2.5rem !important;
+  }
+
+ 
+
+  .col-2:hover {
+    z-index:2;
+    -webkit-transform: scale(1.09);
+    -ms-transform: scale(1.09);  
+    -moz-transform: scale(1.09);
+    transform: scale(1.09);
+    transition: 0.3s;
+  }
+  .current{
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page-item {
+        padding:20px;
+        cursor:pointer;
+    }
